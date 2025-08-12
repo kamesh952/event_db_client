@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { format } from 'date-fns';
 
 const ProfilePage = ({ user, setUser, token }) => {
-  const API_BASE_URL = 'http://localhost:8000';
+  const API_BASE_URL = 'https://event-db-server.onrender.com';
   
   const [formData, setFormData] = useState({
     name: '',
